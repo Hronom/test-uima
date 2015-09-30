@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>TutorialTypeSystem</name>
+    <description>Type System Definition for the tutorial examples - as of Exercise 1</description>
+    <vendor>The Apache Software Foundation</vendor>
+    <types>
+        <typeDescription>
+            <name>com.github.hronom.test.uima.annotator.one.Word</name>
+            <description>test</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>text</name>
+                    <description>Text of word</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+    </types>
+</typeSystemDescription>
